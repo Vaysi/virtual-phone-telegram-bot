@@ -1,0 +1,25 @@
+@import "~startbootstrap-sb-admin/vendor/bootstrap/css/bootstrap.min.css";
+@import "~startbootstrap-sb-admin/vendor/fontawesome-free/css/all.min.css";
+@import "~startbootstrap-sb-admin/vendor/datatables/dataTables.bootstrap4.min.css";
+@import "~startbootstrap-sb-admin/css/sb-admin.min.css";
+body {
+  text-align: right;
+}
+.sidebar {
+  padding-left: 1rem;
+  padding-right: 0!important;
+}
+.navbar-nav .nav-item .nav-link {
+  text-align:right;
+}
+.navbar-nav .nav-item.dropdown .dropdown-toggle::after {
+  float: left;
+}
+footer.sticky-footer {
+  left: 0;
+  right: auto;
+}
+.dropdown-menu-right {
+  right: auto;
+  left: 0;
+}
